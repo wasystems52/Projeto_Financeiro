@@ -1,0 +1,14 @@
+package br.com.javapraweb.financeiro.web.filter;
+
+
+import javax.servlet.*;
+import javax.servlet.annotation.WebFilter;
+import org.hibernate.*;
+import br.com.javaparaweb.financeiro.util.*;
+
+@WebFilter(urlPatterns = {"*.jsf"})
+public class ConexaoHibernateFilter implements Filter{
+	
+	
+
+}

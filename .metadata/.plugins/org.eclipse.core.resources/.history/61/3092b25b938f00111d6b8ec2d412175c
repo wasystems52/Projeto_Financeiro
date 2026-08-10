@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+        "-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+        "http://www.hibernate.org/dtd/hibernate-configuration-3.0.dtd">
+
+<hibernate-configuration>
+    <session-factory>
+    	
+        <!-- 1. Configurações de Conexão com o Banco de Dados (Exemplo com MySQL) -->
+                <property name="dialect">org.hibernate.dialect.MySQL5InnoDBDialect</property>
+        <property name="connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="connection.url">jdbc:mysql://localhost:3306/financeiro?useSSL=false&amp;serverTimezone=UTC</property>
+        <property name="connection.username">root</property>
+        <property name="connection.password">"Wlb021SP)@!"</property>
+       <!-- 3. Gerenciamento de Sessão (OBRIGATÓRIO para funcionar o seu .getCurrentSession()) -->
+        <property name="current_session_context_class">thread</property>
+        <property name="hbm2ddl.auto">update</property>
+
+        <!-- 5. Mapeamento das suas classes de Entidade (@Entity) -->
+        <!-- Adicione uma linha dessa para cada classe de modelo do seu sistema -->
+        <mapping class="br.com.javaparaweb.financeiro.usuario.Usuario" />
+
+    </session-factory>
+</hibernate-configuration>

@@ -1,2 +1,3 @@
-2026/07/23-22:20:58.283 20a4 Creating DB E:\Desenvolvimento_Sistemas\Projetos_Java\Projeto_Financeiro\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB since it was missing.
-2026/07/23-22:20:58.559 20a4 Reusing MANIFEST E:\Desenvolvimento_Sistemas\Projetos_Java\Projeto_Financeiro\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/08/03-15:13:08.465 44fc Reusing MANIFEST E:\Desenvolvimento_Sistemas\Projetos_Java\Projeto_Financeiro\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/MANIFEST-000001
+2026/08/03-15:13:08.466 44fc Recovering log #3
+2026/08/03-15:13:08.466 44fc Reusing old log E:\Desenvolvimento_Sistemas\Projetos_Java\Projeto_Financeiro\.metadata\.plugins\org.eclipse.swt\EBWebView\Default\Sync Data\LevelDB/000003.log 

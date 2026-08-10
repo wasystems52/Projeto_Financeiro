@@ -1,0 +1,5 @@
+package br.com.javapraweb.financeiro.web.filter;
+
+public class ConexaoHibernateFilter {
+
+}

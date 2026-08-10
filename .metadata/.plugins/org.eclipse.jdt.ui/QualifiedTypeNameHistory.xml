@@ -1,4 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
     <fullyQualifiedTypeName name="org.hibernate.annotations.NaturalId"/>
+    <fullyQualifiedTypeName name="org.hibernate.Query"/>
+    <fullyQualifiedTypeName name="org.hibernate.SessionFactory"/>
+    <fullyQualifiedTypeName name="br.com.javaparaweb.financeiro.util.HibernateUtil"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletRequest"/>
+    <fullyQualifiedTypeName name="javax.servlet.FilterChain"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletResponse"/>
+    <fullyQualifiedTypeName name="java.lang.Throwable"/>
+    <fullyQualifiedTypeName name="javax.servlet.ServletException"/>
 </qualifiedTypeNameHistroy>

@@ -1,5 +1,0 @@
-package br.com.javaparaweb.financeiro.usuario;
-
-public interface UsuarioDAO {
-
-}
